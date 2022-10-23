@@ -12,11 +12,15 @@
 As you expect it, the mod translates <b>some</b> debug shortcuts into executable commands. 
 This mod is intended to be paired with Wynncraft for 1.18.2 users.
 
+<h2>Features</h2>
+<h3>Toggle Hitboxes</h3>
+><b>Syntax</b>: /togglehitboxes, /hitboxes, /th
+
 ```mermaid
 graph LR
-    A[Write Code] --> B{Does it work?}
-    B -- Yes --> C[Great!]
-    B -- No --> D[Google]
+    A[Run /togglehitboxes (or its aliases)] --> B{Enabled?}
+    B -- Yes --> C[Enables Hitboxes]
+    B -- No --> D[Disables Hitboxes]
     D --> A
 ```
 
