@@ -19,7 +19,7 @@ This mod is intended to be paired with Wynncraft for 1.18.2 users.
 ```mermaid
 graph LR
     A[Run togglehitboxes command] --> B{Enabled?}
-    B -- Yes --> C[Enables Hitboxes]
-    B -- No --> D[Disables Hitboxes]
+    B -- Yes --> C[Disables Hitboxes]
+    B -- No --> D[Enables Hitboxes]
 ```
 
