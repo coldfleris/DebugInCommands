@@ -21,6 +21,5 @@ graph LR
     A[Run togglehitboxes command] --> B{Enabled?}
     B -- Yes --> C[Enables Hitboxes]
     B -- No --> D[Disables Hitboxes]
-    D --> A
 ```
 
