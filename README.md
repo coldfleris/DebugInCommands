@@ -1,9 +1,22 @@
-# Fabric Example Mod
+# Debug In Commands
 
-## Setup
+***
+<p align="center">
+<a href="https://github.com/coldfleris/DebugInCommands/releases" target="_blank">
+    <img alt="downloads" src="https://img.shields.io/badge/release-v0.0.1--beta1-informational" />
+  </a>
+<a href="https://github.com/coldfleris/DebugInCommands/blob/main/LICENSE" target="_blank">
+    <img alt="downloads" src="https://img.shields.io/github/license/coldfleris/DebugInCommands" />
+  </a>
+</p>
+As you expect it, the mod translates <b>some</b> debug shortcuts into executable commands. 
+This mod is intended to be paired with Wynncraft for 1.18.2 users.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+```mermaid
+graph LR
+    A[Write Code] --> B{Does it work?}
+    B -- Yes --> C[Great!]
+    B -- No --> D[Google]
+    D --> A
+```
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
